@@ -7,7 +7,7 @@ It is designed to manage the collection of funds from multiple sources and distr
 
 This project was developed during the **Spring 2022-23 semester** as part of the **Introduction to Database (CSC 2107)** course.
 
-
+---
 
 ##  Objectives
 
@@ -16,7 +16,7 @@ This project was developed during the **Spring 2022-23 semester** as part of the
 * Distribute funds to different beneficiary groups
 * Design a structured and normalized relational database
 
-
+---
 
 ##  System Features
 
@@ -27,12 +27,12 @@ This project was developed during the **Spring 2022-23 semester** as part of the
 * Government Funds
 * Fundraisers
 
-### 🔹 Organizations
+###  Organizations
 
 * NGO (Non-Governmental Organization)
 * Relief Organizations
 
-### 🔹 Beneficiaries
+###  Beneficiaries
 
 * Farmers
 * Natural Disaster Affected People
@@ -41,6 +41,7 @@ This project was developed during the **Spring 2022-23 semester** as part of the
 * Disabled People
 * Maternity Support
 
+---
 
 ##  Database Concepts Used
 
@@ -50,7 +51,7 @@ This project was developed during the **Spring 2022-23 semester** as part of the
 * Primary Key & Foreign Key Constraints
 * SQL Queries and Data Manipulation
 
-
+---
 
 ##  Technologies Used
 
@@ -58,7 +59,7 @@ This project was developed during the **Spring 2022-23 semester** as part of the
 * SQL (DDL & DML)
 * Oracle SQL Developer
 
-
+---
 
 ##  Project Structure
 
@@ -72,7 +73,7 @@ This project was developed during the **Spring 2022-23 semester** as part of the
 │    ├── Queries
 └── Documentation (DOCX/PDF)
 
-
+---
 
 ##  Example Query
 
@@ -81,9 +82,9 @@ SELECT MAX(GF_AMOUNT) AS "MAXIMUM",
        MIN(GF_AMOUNT) AS "MINIMUM",
        ROUND(AVG(GF_AMOUNT)) AS "AVERAGE"
 FROM GOVT_AMOUNT;
+```
 
-
-
+---
 
 ##  How to Run
 
@@ -93,7 +94,7 @@ FROM GOVT_AMOUNT;
 4. Run `INSERT` statements to populate data
 5. Execute queries to test the system
 
-
+---
 
 ##  Authors
 
@@ -105,6 +106,7 @@ FROM GOVT_AMOUNT;
  BSc in Computer Science & Engineering
  American International University-Bangladesh (AIUB)
 
+---
 
 ##  Project Timeline
 
@@ -112,10 +114,11 @@ FROM GOVT_AMOUNT;
 * Type: Academic Project (University Coursework)
 * Purpose: Learning Database Design & SQL Implementation
 
+---
 
 ##  Notes
 
 This project is developed for academic purposes and demonstrates fundamental database concepts including ER modeling, normalization, and SQL operations.
 
-
+---
 
